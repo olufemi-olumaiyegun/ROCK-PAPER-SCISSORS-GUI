@@ -13,7 +13,7 @@ RPS_frame2.place(relx=0.5, rely=1, relwidth=0.9, relheight=0.5, anchor='s')
 
 playerChoice = ""
 computerMove = ""
-resultPhoto = PhotoImage(file = "results.png")
+#resultPhoto = PhotoImage(file = "results.png")
 resultsLabel = Label(RPS_frame2, bg="#92802E", fg = "#922E4B",justify="left", relief="ridge", font = ('Gothic', 30),pady=20)
 resultsLabel.place(relx=0.5, rely=0.95, relheight=0.94, relwidth=1, anchor='s')
 
